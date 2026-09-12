@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="passwordScreen" class="screen">
+    <div class="login-card">
+      <div class="heart">♡</div>
+      <p class="eyebrow">A little place made for you</p>
+      <h1>Only you can enter</h1>
+      <p class="hint">Enter the secret password.</p>
+      <div class="password-wrap">
+        <input id="passwordInput" type="password" placeholder="Password" autocomplete="off">
+        <button id="unlockBtn">Enter</button>
+      </div>
+      <p id="error" class="error"></p>
+    </div>
+  </div>
+
+  <main id="site" class="hidden">
+    <audio id="music" loop>
+      <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicBtn" class="music-btn" aria-label="Play music">♫</button>
+
+    <section class="hero">
+      <div class="stars"></div>
+      <p class="eyebrow">To the person who means the most to me</p>
+      <h1>Hey, <span>Beautiful</span>.</h1>
+      <p class="hero-text">I made this little corner of the internet just for you.</p>
+      <div class="scroll">scroll slowly ↓</div>
+    </section>
+
+    <section class="letter section">
+      <p class="eyebrow">A few words from me</p>
+      <h2>Before you read anything else...</h2>
+      <p id="letterText" class="letter-text"></p>
+    </section>
+
+    <section class="timeline section">
+      <p class="eyebrow">Our story</p>
+      <h2>The dates I never want to forget</h2>
+
+      <div class="timeline-list">
+        <article class="event">
+          <div class="dot"></div>
+          <div>
+            <span class="date">DD / MM / YYYY</span>
+            <h3>The day we met</h3>
+            <p>Replace this with the story of how you first met.</p>
+          </div>
+        </article>
+
+        <article class="event">
+          <div class="dot"></div>
+          <div>
+            <span class="date">DD / MM / YYYY</span>
+            <h3>Our first real conversation</h3>
+            <p>Write what you remember about that day.</p>
+          </div>
+        </article>
+
+        <article class="event">
+          <div class="dot"></div>
+          <div>
+            <span class="date">DD / MM / YYYY</span>
+            <h3>Our first outing</h3>
+            <p>Add the place, the memory, and the little details.</p>
+          </div>
+        </article>
+
+        <article class="event">
+          <div class="dot"></div>
+          <div>
+            <span class="date">DD / MM / YYYY</span>
+            <h3>Her birthday 🎂</h3>
+            <p>Add her birthday here and a special message.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery section">
+      <p class="eyebrow">Little memories</p>
+      <h2>Some moments I want to keep forever</h2>
+      <div class="photos">
+        <div class="photo"><img src="photo1.jpg" alt="Memory 1"><span>Memory one</span></div>
+        <div class="photo"><img src="photo2.jpg" alt="Memory 2"><span>Memory two</span></div>
+        <div class="photo"><img src="photo3.jpg" alt="Memory 3"><span>Memory three</span></div>
+        <div class="photo"><img src="photo4.jpg" alt="Memory 4"><span>Memory four</span></div>
+      </div>
+    </section>
+
+    <section class="final section">
+      <div class="final-card">
+        <div class="big-heart">♥</div>
+        <p class="eyebrow">One last thing</p>
+        <h2>If I had to choose again...</h2>
+        <p>I would still choose you.</p>
+        <p class="small">Today. Tomorrow. And in every version of our story.</p>
+      </div>
+    </section>
+
+    <footer>Made with love, just for you ♡</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
